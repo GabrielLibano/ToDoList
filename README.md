@@ -1,3 +1,3 @@
 # To Do List
-## Desenvolvido por mim
+## Desenvolvido por mim em JavaScript
 Espero que goste :)
