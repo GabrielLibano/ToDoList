@@ -8,5 +8,9 @@ function enviar(){
     display = document.createElement('div');
     display.classList.add("todo");
 
-    mainDisplay.innerHTML += display.innerHTML = `<div class="todo"><input class="chk" type="checkbox"> <span>` + tarefa + `</span></div>`;
+    if(!tarefa ==''){
+        mainDisplay.innerHTML += display.innerHTML = `<div class="todo"><input class="chk" type="checkbox"> <span>` + tarefa + `</span></div>`;
+    }else{
+        alert("Primeiro Escreva uma tarefa");
+    }
 }
