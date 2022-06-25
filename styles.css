@@ -67,3 +67,14 @@ input:focus{
 
     color: black;
 }
+.btn-delete{
+    text-align: end;
+}
+.row-delete{
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+}
+.list{
+    width: 80%;
+}
